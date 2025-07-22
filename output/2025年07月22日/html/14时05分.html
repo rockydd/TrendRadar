@@ -1,0 +1,178 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 341</p><p>生成时间: 2025-07-22 14:05:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">16</td>
+                    <td class="percentage">4.69%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1146860" target="_blank" class="news-link">当贝 AI 疯了~~13 个大模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时05分</font><br>[sspai] <a href="https://sspai.com/post/101085" target="_blank" class="news-link">去伪存真：聊聊 AI 智能体的定义、工具选择与避坑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146837" target="_blank" class="news-link">鉴于 https://r1mix.ai/ 停止服务，用 golang 构建个一样的服务，满足自己 SOTA 级混合模型使用需求</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时05分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%9D%E9%B2%9C%E5%AE%A3%E5%B8%83%E7%A0%94%E5%8F%91%E5%87%BA%E7%BE%8E%E5%A5%B3AI%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">朝鲜宣布研发出美女AI机器人</a> [7] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146829" target="_blank" class="news-link">图片水印 AI 消除，限时送免费次数</a> [7] <font color='grey'>- 14时05分</font><br>[sspai] <a href="https://sspai.com/post/100991" target="_blank" class="news-link">AI 时代的本地知识管理往何处去？评 DEVONthink 4.0</a> [8] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146819" target="_blank" class="news-link">写了一个 vitepress 插件，集成了 Markmap 和 Mermaid 图表预览功能，为 Markdown 文档提供增强的图表支持。</a> [11] <font color='grey'>- 14时05分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343644&amp;amp;topic_name=%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E5%A5%A5%E5%B7%B4%E9%A9%AC%E2%80%9C%E8%A2%AB%E6%8A%93%E2%80%9D%E7%9A%84AI%E8%A7%86%E9%A2%91" target="_blank" class="news-link">特朗普发奥巴马“被抓”的AI视频</a> [12] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146794" target="_blank" class="news-link">当 AI 开始引用它自己写的东西</a> [15] <font color='grey'>- 14时05分</font><br>[juejin] <a href="https://juejin.cn/post/7528042569354493998" target="_blank" class="news-link">AI智能体正在颠覆App开发，不转型就淘汰</a> [16] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146761" target="_blank" class="news-link">41 个 LangChain LangGraph Agent 案例研究</a> [18] <font color='grey'>- 14时05分</font><br>[juejin] <a href="https://juejin.cn/post/7528035769950191650" target="_blank" class="news-link">Cursor 锁区解决方法，Model not available？This model provider doesn’t serve your ？</a> [19] <font color='grey'>- 14时05分</font><br>[sspai] <a href="https://sspai.com/post/100525" target="_blank" class="news-link">用 AI 教我写的代码，手搓了一个玩具机器人</a> [22] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146728" target="_blank" class="news-link">写了一个免费 AI 简历总结工具网站 FluentResume.com，欢迎大家试用、提意见 🙌</a> [22] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146688" target="_blank" class="news-link">请教关于使用 AI 编程工具，能提高多少效率</a> [27] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146666" target="_blank" class="news-link">Kiro AI 编程太火了！ 已经取消了下载，只能的带 waitlist 了！但是我把安装包做到了一个网站上！还是用 Kiro 做的</a> [30] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.17%</td>
+                    <td class="titles">[sspai] <a href="https://sspai.com/post/100867" target="_blank" class="news-link">iOS 26 Beta 2 &amp; Beta 3 值得关注的新特性</a> [14] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146759" target="_blank" class="news-link">造了一个新的轮子 super-browser-window-kit , 用来给 Electron app 适配 macOS 26 Tahoe , 支持窗口大圆角和液态玻璃背景</a> [19] <font color='grey'>- 14时05分</font><br>[sspai] <a href="https://sspai.com/post/100225" target="_blank" class="news-link">具透 | iPadOS 26：你的下一台电脑也许可以是 iPad</a> [28] <font color='grey'>- 14时05分</font><br>[sspai] <a href="https://sspai.com/post/100146" target="_blank" class="news-link">具透 | 新设计、新功能……iOS 26 中你值得关注的新特性</a> [30] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">3</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1146824" target="_blank" class="news-link">[开源 VSCode 插件] 堪称 Claude Code 最佳伴侣，一键复制报错+多文件地址+上下文</a> [9] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146800" target="_blank" class="news-link">对 claude code 中的 kimi-k2 表现有些失望。</a> [14] <font color='grey'>- 14时05分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1146685" target="_blank" class="news-link">cursor reach limit 只能用 auto 模式吗？可选便宜模型，旧版 claude 吗？有可能调剂到 claude 吗？</a> [28] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles">[sspai] <a href="https://sspai.com/post/101101" target="_blank" class="news-link">在手机严重同质化的时代，Nothing 希望帮你找回科技的乐趣</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时05分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31229442" target="_blank" class="news-link">言短意长｜福耀科技大学、东方理工大学为何首战告捷？</a> [9] <font color='grey'>- 14时05分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8%E7%A7%91%E6%8A%80%E6%89%8B%E6%90%93%E6%91%B8%E9%87%91%E9%81%93%E5%85%B7" target="_blank" class="news-link">用科技手搓摸金道具</a> [17] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.59%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E6%8C%AA%E5%BE%B7%E5%8D%A1%E8%8E%B112%E4%BD%8D%E6%96%B0%E8%A7%92%E8%89%B2" target="_blank" class="news-link">原神挪德卡莱12位新角色</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时05分</font><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8E%9F%E7%A5%9E%E6%B5%81%E6%B5%AA%E8%80%85%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">原神流浪者</a> [29] <font color='grey'>- 14时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2091944" target="_blank" class="news-link">“成本透明化” 重构消费新场景？胖东来联手酒鬼酒打造 “亲民” 白酒</a> [11] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1146822" target="_blank" class="news-link">一款新出的 AI 截图软件！接入 DeepSeek 兼容 windows 和 mac 系统</a> [10] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[juejin] <a href="https://juejin.cn/post/7528457291697831974" target="_blank" class="news-link">Cursor 真正的对手！字节 TRAE SOLO 明日发布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2092019" target="_blank" class="news-link">脑机接口新里程碑！马斯克旗下Neuralink首次一天内完成两例手术</a> [12] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1146774" target="_blank" class="news-link">黄仁勋：我总感觉公司快要倒闭了</a> [17] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1146705" target="_blank" class="news-link">求助,gemini cli 怎么能一直执行,而不是总是 yes 之后,需要自己确认</a> [25] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751581" target="_blank" class="news-link">“星际之门”6个月无一落地，OpenAI与软银的5000亿“大饼”去哪了？</a> [7] <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.29%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%E4%B9%8C%E5%86%9B%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%83%A8%E9%98%9F" target="_blank" class="news-link">深度解析乌军机器人部队</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时05分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8E%9F%E7%A5%9E%E6%B5%81%E6%B5%AA%E8%80%85%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">原神流浪者</a> [29]</li></ul></div>
+        </body>
+        </html>
+        
